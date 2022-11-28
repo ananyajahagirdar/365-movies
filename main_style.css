@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body{
+  background-color: black;
+  font-family: 'Nerko One', cursive;
+}
+
+nav{
+  background-image: linear-gradient(90deg,#ccffff,#ffffb3);
+  text-align:center;
+  margin:0;
+  padding:0;
+ justify-content: space-around;
+ align-items: center;
+}
+
+nav li{
+  float:left;
+  list-style: none;
+  margin: 13px 20px;
+}
+
+nav ul{
+overflow: auto;
+        }
+
+nav li a{
+padding: 3px 3px;
+text-decoration: none;
+}
+
+nav li a:hover{
+            color: red
+        }
+
+.movie-poster{
+height:450px;
+width:100%;
+}
+
+.poster-image{
+width:100%;
+height:100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 450px;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+  color:white;
+}
+
+.swiper .swiper-pagination-bullet-active{
+  background: white;
+}
+
+.category-div{
+  margin:25px 35px;
+}
+
+.category-div div{
+  display:flex;
+  overflow-x:auto;
+  width:100%;
+}
+
+.category-div div::-webkit-scrollbar{
+  width:0;
+}
+
+.category-heading-div{
+  border-bottom: 1px solid white;
+  width:98%;
+  margin-bottom:20px;
+
+}
+.category-heading-div h4{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  line-height: 30px;
+}
+
+.img-category-div{
+  min-width:230px;
+  height:125px;
+  margin-right:10px;
+  padding:0;
+  position:relative;
+}
+
+.img-category-div img{
+  width:100%;
+  height:100%;
+padding:0;
+}
+
+.image-title{
+  z-index:30;
+  width:100%;
+  position:absolute;
+  bottom:14px;
+  padding-top:0.5px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  margin:0;
+}
+
+.image-caption{
+  z-index:20;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  padding-bottom: 1px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  margin:0;
+}
+
+.image-caption p{
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  font-size:8.5px;
+  opacity: 0.7;
+  text-transform: capitalize;
+  padding-bottom: 1px;
+}
+
+.image-title p{
+  color:	white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size:10px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>365 Movies</title>
+    <link rel="stylesheet" href="main_style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-link"><a href="">
+          365</a></li>
+        <li class="nav-link"><a href="">Movies</a></li>
+        <li class="nav-link"><a href="">TV Series</a></li>
+        <li class="nav-link"><a href="">Audio</a></li>
+      </ul>
+    </nav>
+    <div class="movie-poster">
+      <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img class="poster-image" src="images/3-idiots-movie-poster.jpg" alt="3 Idiots"></div>
+    <div class="swiper-slide"><img class="poster-image" src="images/devdas.jpg" alt="Devdas"></div>
+    <div class="swiper-slide"><img class="poster-image" src="images/kantara.jpg" alt="Kantara"></div>
+  <div class="swiper-slide"><img class="poster-image" src="images/lagaan.jpg" alt="Lagaan"></div>
+  <div class="swiper-slide"><img class="poster-image" src="images/queen.jpg" alt="Queen"></div>
+  <div class="swiper-slide"><img class="poster-image" src="images/zindagi-naa-milegi-dobara.png" alt="Zindagi Na Milegi Dobara"></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+</div>
+
+    <div class="category-div">
+      <div class="category-heading-div">
+        <h4>Popular in Action</h4>
+      </div>
+      <div>
+      <div class="img-category-div">
+        <img src="images/action/american-sniper.jpg" alt="American Sniper">
+        <div class="image-title">
+          <p>American Sniper</p>
+        </div>
+        <div class="image-caption">
+          <p>Biographical War Film</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/battleship.jpg" alt="Battleship">
+        <div class="image-title">
+          <p>battleship</p>
+        </div>
+        <div class="image-caption">
+          <p>American military action film</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/jack-reacher.jpg" alt="Jack Reacher">
+        <div class="image-title">
+          <p>jack reacher</p>
+        </div>
+        <div class="image-caption">
+          <p>American action thriller film</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/john-wick.jpg" alt="john wick">
+        <div class="image-title">
+          <p>john wick</p>
+        </div>
+        <div class="image-caption">
+          <p>American neo-noir action thriller film</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/pacific-rim.jpg" alt="pacific rim">
+        <div class="image-title">
+          <p>pacific rim</p>
+        </div>
+        <div class="image-caption">
+          <p>war between humans and monstrous sea creatures</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/suicide-squad.jpg" alt="suicide squad">
+        <div class="image-title">
+          <p>suicide squad</p>
+        </div>
+        <div class="image-caption">
+          <p>American superhero film based on the DC Comics</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/terminator-genisys.jpg" alt="terminator genisys">
+        <div class="image-title">
+          <p>terminator genisys</p>
+        </div>
+        <div class="image-caption">
+          <p>American military action film</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/the-gentleman.jpg" alt="the gentleman">
+        <div class="image-title">
+          <p>the gentleman</p>
+        </div>
+        <div class="image-caption">
+          <p>American military action film</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/the-great-wall.jpg" alt="the great wall">
+        <div class="image-title">
+          <p>the great wall</p>
+        </div>
+        <div class="image-caption">
+          <p>American military action film</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/the-transport.jpg" alt="The Transporter">
+        <div class="image-title">
+          <p>the transport</p>
+        </div>
+        <div class="image-caption">
+          <p>American military action film</p>
+        </div>
+      </div>
+      <div class="img-category-div">
+        <img src="images/action/train-to-busan.jpg" alt="Train To Busan">
+        <div class="image-title">
+          <p>trainto busan</p>
+        </div>
+        <div class="image-caption">
+          <p>South Korean action horror film</p>
+        </div>
+      </div>
+      </div>
+      </div>
+
+    <div class="category-div">
+      <div class="category-heading-div">
+        <h4>Popular in Drama</h4>
+      </div>
+    </div>
+
+    <div class="category-div">
+      <div class="category-heading-div">
+        <h4>Popular in Romance</h4>
+      </div>
+    </div>
+
+    <div class="category-div">
+      <div class="category-heading-div">
+        <h4>Popular in Sci-Fi</h4>
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript">
+      const swiper = new Swiper('.swiper', {
+        autoplay: {
+delay:3000,
+disableOnInteraction:false,
+},
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+
+
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+    </script>
+  </body>
+</html>
